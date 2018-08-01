@@ -1,0 +1,114 @@
+.navigation
+{
+  display: inline;
+  padding: 20px;
+
+}
+ul
+{
+  text-align: center;
+  background-color: #0055FF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+a:link
+{
+  color: black;
+  text-decoration: none;
+}
+a:active, a:visited, a:hover
+{
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  color: black
+}
+#Header
+{
+  text-align: center;
+  background-color: #0055FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  border-radius: 20px;
+
+}
+.content
+{
+  text-align: justify;
+
+}
+.weekdays
+{
+  margin: 10px;
+  padding: 10px;
+  background-color: blue;
+  list-style: none;
+
+
+}
+ol li span
+{
+  background-color: purple;
+}
+body
+{
+  background-color: #00AAFF;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 10% auto 10%;
+}
+
+.itemA
+{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+
+}
+.itemB
+{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 12px;
+  text-align: justify;
+
+
+
+}
+.itemC
+{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color:  #0055FF;
+
+}
+.itemD
+{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.highlight
+{
+  background-color: purple;
+}
+.borderme
+{
+  margin: 20px;
+  border-radius: 2px;
+  border: 2px solid black;
+  text-align: center;
+
+}
